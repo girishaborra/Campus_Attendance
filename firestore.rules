@@ -1,0 +1,14 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{userId} {
+      // Regex explanation: Matches emails with registration numbers from 231801370001 to 231801370095 only.
+      // - '^231801370': matches the fixed 9-digit prefix.
+      // - '(0[0-8][0-9]|09[0-5])': matches range 0001-0089 (0[0-8][0-9]) and 0090-0095 (09[0-5]).
+      // - '@cutmap\\.ac\\.in$': matches the domain cutmap.ac.in.
+      allow read, write: if request.auth != null
+        && request.auth.uid == userId
+        && request.auth.token.email.matches('^231801370(0[0-8][0-9]|09[0-5])@cutmap\\.ac\\.in$');
+    }
+  }
+}

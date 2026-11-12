@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Campus_Attendance" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Material 3 Dark Palette -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/on_primary_dark</item>
+        <item name="colorPrimaryContainer">@color/primary_container_dark</item>
+
+        <!-- Custom Campus Status Attributes (Dark) -->
+        <item name="colorInsideCampus">@color/inside_campus_dark</item>
+        <item name="colorOnInsideCampus">@color/on_inside_campus_dark</item>
+        <item name="colorOutsideCampus">@color/outside_campus_dark</item>
+        <item name="colorOnOutsideCampus">@color/on_outside_campus_dark</item>
+    </style>
+</resources>

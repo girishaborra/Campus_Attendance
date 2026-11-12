@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Theme Attributes for Campus Status -->
+    <attr name="colorInsideCampus" format="color" />
+    <attr name="colorOnInsideCampus" format="color" />
+    <attr name="colorOutsideCampus" format="color" />
+    <attr name="colorOnOutsideCampus" format="color" />
+</resources>

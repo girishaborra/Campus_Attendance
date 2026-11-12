@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Palette -->
+    <color name="primary_light">#1F5FA8</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="primary_container_light">#D5E3FF</color>
+
+    <color name="primary_dark">#A8C8FF</color>
+    <color name="on_primary_dark">#00315F</color>
+    <color name="primary_container_dark">#00468A</color>
+
+    <!-- Inside Campus Palette (Green) -->
+    <color name="inside_campus_light">#2E7D32</color>
+    <color name="on_inside_campus_light">#FFFFFF</color>
+
+    <color name="inside_campus_dark">#81C784</color>
+    <color name="on_inside_campus_dark">#00390A</color>
+
+    <!-- Outside Campus Palette (Red) -->
+    <color name="outside_campus_light">#BA1A1A</color>
+    <color name="on_outside_campus_light">#FFFFFF</color>
+
+    <color name="outside_campus_dark">#FFB4AB</color>
+    <color name="on_outside_campus_dark">#690005</color>
+</resources>
